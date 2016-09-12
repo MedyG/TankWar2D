@@ -1,0 +1,28 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/PlayScene.js",
+        "src/MapLayer.js",
+        "src/globals.js",
+        "src/Issue.js",
+        "src/bulletSprite.js",
+        "src/EnemyAI.js",
+        "src/GameLayer.js",
+        "src/GameOverLayer.js",
+        "src/SimpleRecognizer.js",
+        "src/GameWinLayer.js"
+    ]
+}

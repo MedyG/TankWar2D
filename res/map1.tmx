@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="52" height="52" tilewidth="8" tileheight="8" nextobjectid="17">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8" tilecount="112" columns="28">
+  <image source="tile.png" trans="000000" width="224" height="32"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmclPFUEYxEcRE1EEF9CLoCSg4oLbBfTC7gZ6Ab3gDiL4/5+tS8dJMZnqet3z3pBMJb986XS+10vN180MReFpGJwvRVep+bl1B8yUYr/zc6vzJ2++qzPgbCmymt5fNb7qZ90CU6XIanp/1fiqn9X5c1IXwAi4CC5FtJ3xc/sTo1kwB+6CexHtuvH5ecjtT4yWwQpYBWsR7brx+XkYhD974Av4Cr5FtOvGb4M/YawhcC6iXTd+qj+xc63bnzDWNLgd0S7LPT+vgKvgGrgeu4iKudbtzyJYAi/Bq4h2We799gg8BgvgibGOoBh/dsAu+AQ+R7TLcv15A96Cd+C9sY6g3M8vy/VnHxyA3+Cw+H+3hajkni/ufvPv8/zU+RfuthCVXH/c/ebf5/mp86/z53T54/rFyu2fOx9ev+sXK7d/7nw6f+o1aH9YvL8qKn85uuedOt+UeH9VVP5ydM87db4pdf4M1p/U9wXeX3f/uJ/n4+anvi/w/rrPN/fzfNz81PeF3P7wfNx8fl9wldsfnk/q9zf3+4k6n1LrR0n9vvv9RJ1PqfWj1HZ/3Hpuuz9uPef+Pur2q6juH/X8qPrj9Y+Cy2AMjFf0q3wV1f2jnh9Vf7z++2AePAAPK/pVvorq/lH+qPrj9a+DDbAJXlf0q3wV1f2j/FH1x+v/Dn6An+BXRb/KVzFVbaufVLWtflLVdP2Eb+07RX/8Sa2fppV6/7Ga/v9B6vi5/z6I1W7RW9201Z9e66bf/vC+q9+ZAJPgBrhp5OU6H3PtT+h/Cp6B5+CFkZfr/sr1/Ib+LbANPoCPRl5b/fkDjsAx+Gvk9erPPyGugzM=
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <layer name="bg3" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztzrcRgEAAA0HawLSBaQPTBqb/CMXEP3yyO3Ox1DQAAAAAAAAAAADAV5u61Keh8pcSxjSlOS2Vv5Swpi3t6aj8pYQzXelOzw97L2DLBEk=
+  </data>
+ </layer>
+ <objectgroup name="player">
+  <object id="1" name="pl1" x="144" y="392" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="en">
+  <object id="2" name="en1" x="16" y="0" width="24" height="24"/>
+  <object id="3" name="en2" x="200" y="0" width="24" height="24"/>
+  <object id="4" name="en3" x="384" y="0" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="t">
+  <object id="5" name="t1" x="230" y="102" width="24" height="24"/>
+  <object id="6" name="t2" x="68" y="228" width="24" height="24"/>
+  <object id="7" name="t3" x="275" y="216" width="24" height="24"/>
+  <object id="8" name="t4" x="324" y="324" width="24" height="24"/>
+  <object id="9" name="t5" x="380" y="164" width="24" height="24"/>
+  <object id="10" name="t6" x="312" y="72" width="24" height="24"/>
+  <object id="11" name="t7" x="151" y="150" width="24" height="24"/>
+  <object id="12" name="t8" x="181" y="261" width="24" height="24"/>
+  <object id="13" name="t9" x="28" y="124" width="24" height="24"/>
+  <object id="14" name="t10" x="18" y="357" width="24" height="24"/>
+ </objectgroup>
+ <objectgroup name="home">
+  <object id="15" name="home" x="192" y="384" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/frameworks/
+/simulator/
+/cocosstudio/
+/tools/
+/script/
+/publish/
+/.idea/
+/.settings/
+tankwar.zip
